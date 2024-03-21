@@ -1,0 +1,36 @@
+{
+  "name": "st_john_college_fugar_old_backend_boys",
+  "version": "1.0.0",
+  "description": "Membership api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olatocode/st_john_college_fugar_old_backend_boys.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Tobi Awosola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olatocode/st_john_college_fugar_old_backend_boys/issues"
+  },
+  "homepage": "https://github.com/olatocode/st_john_college_fugar_old_backend_boys#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.2.2",
+    "morgan": "^1.10.0"
+  }
+}
